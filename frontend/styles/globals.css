@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components{
+    .heroButton{
+        @apply px-2 py-2   uppercase text-sm tracking-widest text-[#0963E8] hover:text-[#D603FE] ;
+    }
+}
